@@ -1,0 +1,44 @@
+:root {
+  --white: #fff;
+  --main-blue: #4472c4;
+  --darker-blue: #375da3;
+  --label: #2b2a2a;
+  --main-green: #70ad47;
+  --darker-green: #517f33;
+  --main-yellow: #ffc000;
+  --darker-yellow: #be8e02;
+}
+
+body,
+h2 {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}
+
+label {
+  margin-left: 12px;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--label);
+}
+
+.green-shapes {
+  background-color: var(--main-green);
+  border: 2px solid var(--darker-green);
+}
+
+.yellow-shapes {
+  background-color: var(--main-yellow);
+  border: 2px solid var(--darker-yellow);
+}

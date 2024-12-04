@@ -1,0 +1,16 @@
+select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  outline: none;
+  border: 2px solid var(--main-blue);
+  border-radius: 8px;
+  padding: 10px 12px;
+  font-size: 14px;
+  width: 100%;
+  box-sizing: border-box;
+  background-image: url("../../assets/seta-select-component.png");
+  background-repeat: no-repeat;
+  background-position: right 4px center;
+  background-size: 30px;
+}

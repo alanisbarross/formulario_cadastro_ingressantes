@@ -1,0 +1,48 @@
+#form-cadastro-ingressante {
+  border: 2px solid var(--main-blue);
+  border-radius: 8px;
+  width: 40vw;
+}
+
+#form-cadastro-ingressante > main {
+  padding: 20px 5px;
+}
+
+#form-cadastro-ingressante > h2 {
+  background-color: var(--main-blue);
+  border-bottom: 2px solid var(--darker-blue);
+  padding: 8px;
+  text-align: center;
+  font-weight: 100;
+  color: var(--white);
+}
+
+#button-group-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+@media (max-width: 1500px) {
+  #form-cadastro-ingressante {
+    width: 60vw;
+  }
+}
+
+@media (max-width: 1200px) {
+  #form-cadastro-ingressante {
+    width: 70vw;
+  }
+}
+
+@media (max-width: 900px) {
+  #form-cadastro-ingressante {
+    width: 80vw;
+  }
+}
+
+@media (max-width: 600px) {
+  #form-cadastro-ingressante {
+    width: 90vw;
+  }
+}
