@@ -1,4 +1,4 @@
-# Projeto React do Teste Técnico da Empresa Muralis Tecnologia
+# Projeto React - Teste Técnico: Empresa Muralis Tecnologia
 
 Features:
 
