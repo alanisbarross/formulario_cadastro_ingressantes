@@ -1,9 +1,9 @@
 import { ChangeEvent, FormEvent, useMemo, useState } from "react";
-import { listCursos, listEstados } from "../data";
-import { DadosBasicos, Select } from "../components/Select";
-import { Input } from "../components/Input";
+import { listCursos, listEstados } from "../../data";
+import { DadosBasicos, Select } from "../../components/Select";
+import { Input } from "../../components/Input";
 import { FormCadastroIngressante } from "./types";
-import { Button } from "../components/Button";
+import { Button } from "../../components/Button";
 import "./styles.css";
 
 const formDefaultvalues: FormCadastroIngressante = {
@@ -39,7 +39,7 @@ export const PageCadastroIngressante = () => {
   const handleSubmit = (e: FormEvent<HTMLFormElement>) => {
     e?.preventDefault();
     alert(
-      `Ingresante ${formData?.nome?.toLocaleUpperCase()} cadastrado(a) com sucesso!`
+      `Ingressante ${formData?.nome?.toLocaleUpperCase()} cadastrado(a) com sucesso!`
     );
     setFormData(formDefaultvalues);
   };
